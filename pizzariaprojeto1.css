@@ -1,0 +1,320 @@
+body{
+    background-color: gray;
+}
+
+.topo{
+    width: 100%;
+    height: 120px ;
+    background-image: linear-gradient(to right, #981D25, #801474);
+    
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+}
+
+.logo {
+    width: 30%;
+    height: 120px;
+    background-color: none;
+    
+    float: left;
+}
+
+.menu{
+    width: 70% ;
+    height: 120px;
+    background-color:none ;
+
+    float: left ;
+
+}
+.logo p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.meumenu{
+    list-style: none;
+    border: 1px solid #c0c0c0;
+    float: left;
+    margin-top: 4%;
+
+}
+
+.meumenu li{
+    position:  relative;
+    float: left;
+    border-right: 1px solid #c0c0c0;
+}
+.meumenu li a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    padding: 13px 30px;
+
+}
+.meumenu li a:hover{
+    background-color: #333;
+    color: #fff;
+
+}
+
+.banner{
+    width: 90%;
+    height: 400px;
+    background-color: blue;
+    margin-left: 5%;
+    margin-top: 120px;
+
+}
+
+.banner img{
+    width: 100%;
+    height: 400px;
+}
+
+.promocoes{
+    width: 90%;
+    height: 80px;
+    background-color: none;
+    margin-left: 5%;
+    float: left;
+
+}
+.promocoes p{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+
+.produtos{
+    width: 90%;
+    height: 712px;
+    background-color: white;
+    margin-left: 5%;
+}
+
+.original1{
+    width: 48.5%;
+    height: 315px;
+    background-color: red;
+    float: left;
+    margin-left: 1%;
+
+}
+.original1 img{
+    width: 100%;
+    height: 315px;
+    
+}
+
+.original2{
+    width: 48.5%;
+    height: 315px;
+    background-color: black;
+    float: left;
+    margin-left: 1%;
+    
+}
+
+.original2 img{
+    width: 100%;
+    height: 315px;
+    
+    
+}
+
+.original3{
+    width: 48.5%;
+    height: 250px;
+    background-color: green;
+    float: left;
+    margin-left: 1%;
+    clear: both;
+    margin-top: 1%;
+}
+
+.original3 img{
+    width: 100%;
+    
+    
+}
+
+.original4{
+    width: 48.5%;
+    height: 250px;
+    background-color: blue ;
+    float: left ;
+    margin-left: 1%;
+    margin-top: 1%;
+
+}
+
+.original4 img{
+    width: 100%;
+    
+    
+}
+
+.empresa{
+    width: 90%;
+    height: 712px;
+    background-color: white;
+    margin-left: 5%;
+    padding-top: 10%;
+    clear:  both;
+
+}
+
+.empresa img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botao{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+.botao input{
+    background-image: linear-gradient(to right, #981D25, #801474);
+    width: 18%;
+    height: 40px;
+    margin-left: 42%;
+    margin-top: 5%;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+}
+
+.botao input:hover{
+    color: #c0c0c0;
+    cursor: pointer;
+}
+.rodape{
+    width: 90%;
+    height: 250px;
+    margin-left: 5%;
+
+    background-image: linear-gradient(to right, #981D25, #801474);
+    float: left;
+
+}
+
+.bebidas{
+    width: 15%;
+    height: 260px;
+    margin-left: 5%;
+    margin-top: 20px;
+    background-color: none;
+    float: left;
+    color: white;
+
+
+
+}
+.bebidas h3{
+    text-align: center;
+    color: white;
+
+}
+.menubebidas{
+    color: white;
+    list-style: none;
+    font-size: 18px;
+
+}
+.menubebidas li a{
+    color: white;
+    list-style: none;
+    font-size: 18px;
+    text-decoration: none;
+}
+.menubebidas li a:hover{
+    color:#c0c0c0
+}
+
+.comidas{
+    width: 45%;
+    height: 260px;
+    background-color: none;
+    margin-top: 20px;
+    float: left;
+
+}
+
+.comidas h3{
+    
+    color: white;
+    margin-left: 6%;
+    
+}
+
+.menucomidas{
+    
+    color: white;
+    list-style: none;
+    font-size: 18px;
+
+}
+.menucomidas li a{
+    color: white;
+    list-style: none;
+    font-size: 18px;
+    text-decoration: none;
+}
+.menucomidas li a:hover{
+    color:#c0c0c0
+}
+
+.descricao{
+    width: 30%;
+    height: 260px;
+    background-color: none;
+    margin-top: 20px;
+    float: left;
+
+}
+.descricao h3{
+    color: white;
+    margin-left: 15%;
+
+}
+.menudescricao{
+    
+    color: white;
+    list-style: none;
+    font-size: 18px;
+
+}
+.menudescricao li a{
+
+    color: white;
+    list-style: none;
+    font-size: 18px;
+    text-decoration: none;
+}
+.menudescricao li a:hover{
+    color:#c0c0c0;
+}
+
+.proprietario{
+    width: 100%;
+    height: 50px;
+    background-image: (to right, #981D25, #801474);
+    text-align: right;
+    color: white;
+    clear: both;
+
+}
+
+.proprietario p{
+    color:white;
+}
